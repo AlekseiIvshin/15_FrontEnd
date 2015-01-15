@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Auto show</title>
+<link rel="stylesheet" href="style.css" />
+<script data-require="jquery" data-semver="2.1.1" src="jquery.min.js"></script>
+<script src="script.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="header">
+			<div class="cars">
+				<a href="#" id="getAllCars" class="button">Get all marks</a>
+				<div class="status"></div>
+				<div class="carslist">
+					<ul id="marks" class="marks item"></ul>
+					<ul id="models" class="models item"></ul>
+					<ul id="modifications" class="modifications item"></ul>
+				</div>
+			</div>
+			<div class="searchContainer">
+				<div class="searchPanel">
+					<input type="search" name="carId" placeholder="Car id" />
+					<div class="search button">
+						<a href="#" id="searchById">Search by id</a>
+					</div>
+				</div>
+				<div id="searchResult"></div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="newCar">
+			<label>Add new car</label>
+			<form id="addNewCar" method="POST">
+				<div>
+					<label>Mark name</label><input type="text" name="mark"
+						placeholder="mark name" />
+				</div>
+				<div>
+					<label>Model name</label><input type="text" name="model"
+						placeholder="model name" />
+				</div>
+				<div>
+					<label>Modification</label><input type="text" name="modification"
+						placeholder="modification" />
+				</div>
+				<div>
+					<input type="submit" value="Add car" />
+				</div>
+			</form>
+			<div class="result"></div>
+		</div>
+	</section>
+</body>
+
+</html>

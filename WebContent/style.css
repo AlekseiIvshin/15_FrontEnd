@@ -1,0 +1,125 @@
+body {
+	
+}
+
+.searchContainer {
+	float: right;
+}
+
+.button {
+	font-size: 20pt;
+	font-weight: bold;
+	color: white;
+	background-color: #0099CC;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+.search.button {
+	display: inline;
+	font-style: italic;
+}
+
+.carslist li {
+	margin-left: -40px;
+	padding: 0;
+}
+
+.carslist li:hover {
+	margin-left: -30px;
+	font-size: 22pt;
+}
+
+.marks li {
+	background-color: #AA66CC;
+}
+
+
+.models li {
+	background-color: #99CC00;
+}
+
+.modifications li {
+	background-color: #FFBB33;
+}
+
+.item {
+	width: 200px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: left;
+	position: relative;
+	text-transform: capitalize;
+	display: block;
+	font-size: 20pt;
+	font-weight: bold;
+	color: white;
+}
+
+.cars {
+	z-index: 9999;
+	position: absolute;
+}
+
+.cars li {
+	list-style-type: none;
+	text-align: left;
+}
+
+#searchResult {
+	font-size: 20pt;
+	font-weight: bold;
+	color: white;
+	background-color: #99CC00;
+}
+
+.newCar {
+	position: absolute;
+	background-color: #FFBB33;
+	color: white;
+	font-size: 20pt;
+	font-weight: bold;
+	width: 400px;
+	z-index: -9999;
+}
+
+.result {
+	font-size: 20pt;
+	font-weight: bold;
+	color: white;
+}
+
+.success {
+	background-color: #669900;
+}
+
+.error {
+	background-color: #CC0000;
+}
+
+.carslist {
+	display: none;
+}
+
+.cars .status {
+	display: inline;
+	font-size: 16pt;
+	font-weight: bold;
+	color: white;
+	background-color: #AA66CC;
+}
+
+.loading {
+	background-color: #0099CC;
+}
+
+.header {
+	background-color: #33B5E5;
+	height: 35px;
+	padding: 10px;
+}
